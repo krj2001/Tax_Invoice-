@@ -1,0 +1,21 @@
+body{
+    padding: 5%;
+    padding-top: 2%;
+   
+}
+.form{
+ margin-top: 2%;
+ box-shadow: 1px 1px 10px 0;
+ padding: 6%;
+ border: 1px solid;
+}
+.Addbtn{
+    margin-top: 2%;
+}
+h5{
+    text-align: center;
+}
+.label{
+    margin-top: 10px;
+    font-weight: 500;
+}

@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "ClientName": "Janakrishnamoorthy",
+      "Address": "02, abc, chromepet, chennai-600029",
+      "InvoiceNumber": "TXN2001",
+      "DateOfIssue": "2023-05-13",
+      "Description": "AirConditioner",
+      "UnitCost": "20000",
+      "Qty": "5",
+      "Amount": "18598",
+      "AccountHolederName": "Janakrishnamoorthy",
+      "AccountNumber": "400343912631"
+    },
+    {
+      "id": "2",
+      "ClientName": "Sanjai",
+      "Address": "05, Chromepet, Chennai-600078",
+      "InvoiceNumber": "TXN2002",
+      "DateOfIssue": "2023-05-20",
+      "Description": "Mi Smart Watch",
+      "UnitCost": "10000",
+      "Qty": "6",
+      "Amount": "9800",
+      "AccountHolederName": "Sanjai",
+      "AccountNumber": "1234567890"
+    }
+  ]
+}
