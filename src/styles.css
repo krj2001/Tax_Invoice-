@@ -1,0 +1,73 @@
+body{
+  padding: 5%;
+  padding-top: 1%;
+}
+.form{
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 1px 1px 15px 0;
+}
+label{
+padding-bottom: 2%;
+font-size: 18px;
+color: rgb(59, 59, 59);
+}
+input{
+padding: 15px;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 3px solid rgba(105, 103, 103, 0.658);
+
+}
+h2{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 0%;
+  color: #606c7c ;
+}
+.main-div{
+  display: flex;
+
+}
+.btn{
+  margin-left: 1%;
+  padding: 0%;
+  width: 50%;
+  background-color: rgb(49, 49, 231);
+  color: whitesmoke;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+.btn-rem{
+  margin-left: 1%;
+  width: 50%;
+  background-color: rgb(223, 11, 11);
+  color: whitesmoke;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+.btn-submit{
+  margin-top: 5%;
+  padding: 1%;
+  width: 100%;
+  background-color: rgb(56, 163, 53);
+  color: whitesmoke;
+  border: none;
+  border-radius: 30px;
+
+}
+h3{
+  text-align: center;
+  font-size: 22px;
+  color: #606c7c ;
+  margin-top: 0%;
+
+}

@@ -1,30 +1,108 @@
 {
   "users": [
     {
-      "id": "1",
-      "ClientName": "Janakrishnamoorthy",
-      "Address": "02, abc, chromepet, chennai-600029",
-      "InvoiceNumber": "TXN2001",
-      "DateOfIssue": "2023-05-13",
-      "Description": "AirConditioner",
-      "UnitCost": "20000",
-      "Qty": "5",
-      "Amount": "18598",
-      "AccountHolederName": "Janakrishnamoorthy",
-      "AccountNumber": "400343912631"
+      "staticInputs": {
+        "id": "01",
+        "clientName": "JanakrishnaMoorthy",
+        "address": "Chromepet Chennai",
+        "invoiceNumber": "TXN005",
+        "dateOfIssue": "2023-05-16",
+        "accountHolderName": "Janakrishnamoorthy",
+        "accountNumber": "400343912631"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "4500"
+        },
+        {
+          "description": "Vivo S1 Pro",
+          "unitCost": "20000",
+          "quantity": "1",
+          "amount": "18000"
+        }
+      ],
+      "id": 1
     },
     {
-      "id": "2",
-      "ClientName": "Sanjai",
-      "Address": "05, Chromepet, Chennai-600078",
-      "InvoiceNumber": "TXN2002",
-      "DateOfIssue": "2023-05-20",
-      "Description": "Mi Smart Watch",
-      "UnitCost": "10000",
-      "Qty": "6",
-      "Amount": "9800",
-      "AccountHolederName": "Sanjai",
-      "AccountNumber": "1234567890"
+      "staticInputs": {
+        "id": "02",
+        "clientName": "Sanjay",
+        "address": "Chromepet Chennai",
+        "invoiceNumber": "TXN006",
+        "dateOfIssue": "2023-05-17",
+        "accountHolderName": "Sanjay",
+        "accountNumber": "500353914789"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "4500"
+        },
+        {
+          "description": "Lenovo E516",
+          "unitCost": "50000",
+          "quantity": "1",
+          "amount": "45000"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "staticInputs": {
+        "id": "03",
+        "clientName": "Balaji",
+        "address": "Chromepet Chennai",
+        "invoiceNumber": "TXN007",
+        "dateOfIssue": "2023-05-25",
+        "accountHolderName": "Balaji",
+        "accountNumber": "400343912631"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Bag",
+          "unitCost": "1000",
+          "quantity": "1",
+          "amount": "800"
+        },
+        {
+          "description": "Kerchief",
+          "unitCost": "100",
+          "quantity": "1",
+          "amount": "80"
+        },
+        {
+          "description": "WaterBottle",
+          "unitCost": "500",
+          "quantity": "1",
+          "amount": "450"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "staticInputs": {
+        "id": "04",
+        "clientName": "Haripriya",
+        "address": "Chromepet Chennai",
+        "invoiceNumber": "TXN008",
+        "dateOfIssue": "2023-05-19",
+        "accountHolderName": "Haripriya",
+        "accountNumber": "700258963"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "4500"
+        }
+      ],
+      "id": 4
     }
   ]
 }
