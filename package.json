@@ -11,9 +11,12 @@
     "@coreui/coreui": "^4.2.6",
     "@coreui/coreui-pro": "^4.5.0",
     "axios": "^1.4.0",
+    "html2pdf.js": "^0.10.1",
     "loader-utils": "3.2.1",
+    "pdf-lib": "^1.17.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-pdf": "^6.2.2",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "react-to-pdf": "^0.0.14"

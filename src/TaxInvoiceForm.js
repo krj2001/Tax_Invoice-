@@ -64,7 +64,7 @@ const TaxInvoiceForm = () => {
       if (response.ok) {
         const responseData = await response.json();
         const { id } = responseData;
-        // Redirect to the view page for the saved invoice
+
 
         navigate(`/view/${id}`);
       } else {
@@ -74,6 +74,7 @@ const TaxInvoiceForm = () => {
       console.error("Error:", error);
     }
   };
+
 
   return (
     <div>

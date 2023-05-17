@@ -103,6 +103,118 @@
         }
       ],
       "id": 4
+    },
+    {
+      "staticInputs": {
+        "id": "06",
+        "clientName": "Sri ",
+        "address": "Jana House",
+        "invoiceNumber": "TXN0018",
+        "dateOfIssue": "2023-05-26",
+        "accountHolderName": "Jana Sri",
+        "accountNumber": "1234567890"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Choki Choki ",
+          "unitCost": "50",
+          "quantity": "1 bx ",
+          "amount": "50"
+        },
+        {
+          "description": "Gone Made",
+          "unitCost": "60",
+          "quantity": "1 bx ",
+          "amount": "60"
+        },
+        {
+          "description": "little bytes",
+          "unitCost": "40",
+          "quantity": "4 pc ",
+          "amount": "40"
+        },
+        {
+          "description": "Macroons",
+          "unitCost": "50",
+          "quantity": "2 pct ",
+          "amount": "50"
+        },
+        {
+          "description": "Go Choco",
+          "unitCost": "80",
+          "quantity": "1",
+          "amount": "80"
+        },
+        {
+          "description": "KitKat",
+          "unitCost": "50",
+          "quantity": "2",
+          "amount": "50"
+        },
+        {
+          "description": "Choco truffle Cake",
+          "unitCost": "80",
+          "quantity": "2pcs",
+          "amount": "80"
+        },
+        {
+          "description": "Maska Chaska Biscuit",
+          "unitCost": "50",
+          "quantity": "2 pct ",
+          "amount": "50"
+        },
+        {
+          "description": "Hide and Seek ",
+          "unitCost": "50",
+          "quantity": "2 pct ",
+          "amount": "80"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "staticInputs": {
+        "id": "001",
+        "clientName": "Janakrishnamoorthy",
+        "address": "08/Vanaman st, Bodinayakanur, Theni-625513.",
+        "invoiceNumber": "TXN0019",
+        "dateOfIssue": "2023-05-21",
+        "accountHolderName": "Janakrishnamoorthy",
+        "accountNumber": "654321"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "4800"
+        },
+        {
+          "description": "Dell Latitude E451",
+          "unitCost": "80,000",
+          "quantity": "1",
+          "amount": "78,000"
+        },
+        {
+          "description": "Toshiba SSD-500",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "4500"
+        },
+        {
+          "description": "Zebronics wireless mouse",
+          "unitCost": "2000",
+          "quantity": "2",
+          "amount": "4000"
+        },
+        {
+          "description": "Fingers F15 wireless keyboard",
+          "unitCost": "6000",
+          "quantity": "1",
+          "amount": "5800"
+        }
+      ],
+      "id": 11
     }
   ]
 }
