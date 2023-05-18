@@ -124,13 +124,17 @@
 // export default ViewInvoice;
 
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import html2pdf from "html2pdf.js";
 import "./ViewInvoice.css";
+import { useLocation, useParams } from "react-router-dom";
 
 function ViewInvoice() {
   const [invoices, setInvoices] = useState([]);
   const { id } = useParams();
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const subtotal = searchParams.get("subtotal");
 
   useEffect(() => {
     const fetchInvoices = async () => {
@@ -181,9 +185,9 @@ function ViewInvoice() {
           <div className="table-left">
             <h2 className="invoice">Invoice</h2>
             <br />
-            <h4>INVOICE NUMBER: {user.staticInputs.invoiceNumber}</h4>
+            <h4>INVOICE NUMBER: <span className="inv-span">{user.staticInputs.invoiceNumber}</span></h4>
             <p></p>
-            <h4>DATE OF ISSUE: {user.staticInputs.dateOfIssue}</h4>
+            <h4>DATE OF ISSUE: <span className="inv-span">{user.staticInputs.dateOfIssue}</span></h4>
             <p></p>
           </div>
           <div className="table-right">
@@ -200,14 +204,30 @@ function ViewInvoice() {
                 <tbody key={index}>
                   <tr>
                     <td>{input.description}</td>
-                    <td className="unitcost">{input.unitCost}</td>
+                    <td className="unitcost">${input.unitCost}</td>
                     <td className="quantity">{input.quantity}</td>
-                    <td className="amount">{input.amount}</td>
+                    <td className="amount">${input.amount}</td>
                   </tr>
-                </tbody>
+              
+                </tbody> 
+                
               ))}
+                 
+               
             </table>
+            <div className="total-con">
+            <h4 className="total">SUBTOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>${subtotal}</span></h4>
+            <h4 className="total">DISCOUNT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>$0.00</span></h4>
+            <h4 className="total">TAX RATE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>0%</span></h4>
+            <h4 className="total">TAX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>$0.00</span></h4>
+            <hr/>
+            <h4 className="total">INVOICE TOTAL:</h4>
+            <span className="tax-total">${subtotal}</span>
+            </div>
+          
+  
           </div>
+          
         </div>
         <div className="main-div">
           <div className="left-details">
@@ -217,6 +237,7 @@ function ViewInvoice() {
             </p>
           </div>
           <div className="right-details">
+        
             <h4>BANK ACCOUNT DETAILS:</h4>
             <p>
               Account Holder: <b>{user.staticInputs.accountHolderName}</b>
@@ -226,6 +247,7 @@ function ViewInvoice() {
             </p>
             <p>ABA rtn: 025689741</p>
             <p>Wire rtn: 056879451</p>
+            
           </div>
           
         </div>
@@ -237,7 +259,8 @@ function ViewInvoice() {
   const downloadPdf = () => {
     const element = document.getElementById("pdf-container");
     const options = {
-      margin: 10,
+      // margin: 10,
+      padding:0,
       width: 80,
       filename: "invoice.pdf",
       image: { type: "jpeg", quality: 0.98 },

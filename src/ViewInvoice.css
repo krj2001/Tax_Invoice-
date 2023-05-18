@@ -1,109 +1,143 @@
-
-.main-div{
-    display: flex;
-
+.main-div {
+  display: flex;
+  margin-top: 2%;
 }
-.view-page{
-    padding: 5%;
-    box-shadow: 1px 1px 20px 0;
- 
-    margin-bottom: 2%;
-}
-p{
-    line-height: 10px;
-    font-size: 17px;
-    font-weight: 500;
-    color: black;
+.view-page {
+  padding: 5%;
+  box-shadow: 1px 1px 20px 0;
 
+  margin-bottom: 2%;
+}
+p {
+  line-height: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
 }
 
-.right-div{
-    margin-left: 5%;
-  
+.right-div {
+  margin-left: 5%;
 }
-.bill-sec{
-    margin-top: 3%;
+.bill-sec {
+  margin-top: 3%;
 }
-h1, h2, h4{
-    color: #606c7c !important;
+h1,
+h2,
+h4 {
+  color: #606c7c !important;
 }
-h1{
-    font-size: 43px !important;
-    margin-top: 0%;
+h1 {
+  font-size: 36px !important;
+  margin-top: 0%;
 }
-h2{
-    font-size: 36px !important;
+h2 {
+  font-size: 28px !important;
+  margin-bottom: 0%;
 }
-h4{
-    font-size: 20px !important;
+h4 {
+  font-size: 14px !important;
+  margin-top: 0%;
 }
 
-.table-left{
-    width: 40%;
-    margin-top: 1%;
+.table-left {
+  width: 23%;
+  margin-top: 1%;
 }
-.table-right{
-    width: 50%;
-    margin-top: 1%;
-    margin-left: 3%;
+.table-right {
+  width: 90%;
+  margin-top: 1%;
+  margin-left: 3%;
 }
 #customers {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+}
+table {
+  font-size: 14px;
+  padding: 0%;
+  width: auto;
+  border: none;
+}
 
-  }
-  
-  #customers td, #customers th {
-    border: 1px solid #ddd;
-   
-    padding: 10px;
-  }
-  
-  #customers tr:nth-child(even){background-color: #f4f4fc;}
-  
-  #customers tr:hover {background-color: #ddd;}
-  
-  #customers th {
-    background-color: #606c7c;
-    color: white;
-  }
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
 
-  .right-details{
-    width: 80%;
-    margin-top: 1%;
+  padding: 10px;
+}
 
-  }
-  .left-details{
-    width: 100%;
-    float: right;
-    margin-top: 1%;
-  }
-  .invoice{
-    text-align: left;
-  }
-  hr{
-    background: 'lime';
-    color: 'lime';
-    border-Color: 'lime';
-    height: '3px'
-  }
-  .amount{
-    text-align: right;
-    
-  }
-  .unitcost{
-    text-align: right;
-  }
-  .quantity{
-    text-align: center;
-  }
-  .pdf_button{
-    text-align: center;
-    background-color: rgba(43, 43, 201, 0.795);
-    color: whitesmoke;
-    padding: 10px;
-    border: none;
-    font-weight: bold;
-  }
+#customers tr:nth-child(even) {
+  background-color: #f4f4fc;
+}
+
+#customers th {
+  background-color: #606c7c;
+  color: white;
+}
+
+#customers td {
+  background-color: #f1f5f8;
+}
+.right-details {
+  width: 50%;
+  margin-top: 1%;
+  float: right;
+}
+.left-details {
+  width: 100%;
+  float: right;
+  margin-top: 1%;
+}
+.invoice {
+  text-align: left;
+}
+hr {
+  background: "lime";
+  color: "lime";
+  border-color: "lime";
+  height: "3px";
+}
+.amount {
+  text-align: right;
+}
+.unitcost {
+  text-align: right;
+}
+.quantity {
+  text-align: center;
+}
+.pdf_button {
+  text-align: center;
+  background-color: rgba(43, 43, 201, 0.795);
+  color: whitesmoke;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+.total h4 {
+  font-size: 25px;
+}
+.inv-total h4 {
+  font-size: 50px;
+}
+.total-con {
+  margin-top: 4%;
+  float: right;
+}
+hr {
+  border: -1 px solid black;
+}
+span {
+  color: black;
+}
+.tax-total {
+  font-size: 25px;
+  float: right;
+  font-weight: bolder;
+  margin-top: 0%;
+}
+.inv-span{
+  line-height: 1.5rem;
+}

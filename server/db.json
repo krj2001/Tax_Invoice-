@@ -2,116 +2,12 @@
   "users": [
     {
       "staticInputs": {
-        "id": "01",
-        "clientName": "JanakrishnaMoorthy",
-        "address": "Chromepet Chennai",
-        "invoiceNumber": "TXN005",
-        "dateOfIssue": "2023-05-16",
-        "accountHolderName": "Janakrishnamoorthy",
-        "accountNumber": "400343912631"
-      },
-      "dynamicInputs": [
-        {
-          "description": "Mi Smart Band",
-          "unitCost": "5000",
-          "quantity": "1",
-          "amount": "4500"
-        },
-        {
-          "description": "Vivo S1 Pro",
-          "unitCost": "20000",
-          "quantity": "1",
-          "amount": "18000"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "staticInputs": {
-        "id": "02",
-        "clientName": "Sanjay",
-        "address": "Chromepet Chennai",
-        "invoiceNumber": "TXN006",
-        "dateOfIssue": "2023-05-17",
-        "accountHolderName": "Sanjay",
-        "accountNumber": "500353914789"
-      },
-      "dynamicInputs": [
-        {
-          "description": "Mi Smart Band",
-          "unitCost": "5000",
-          "quantity": "1",
-          "amount": "4500"
-        },
-        {
-          "description": "Lenovo E516",
-          "unitCost": "50000",
-          "quantity": "1",
-          "amount": "45000"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "staticInputs": {
-        "id": "03",
-        "clientName": "Balaji",
-        "address": "Chromepet Chennai",
-        "invoiceNumber": "TXN007",
-        "dateOfIssue": "2023-05-25",
-        "accountHolderName": "Balaji",
-        "accountNumber": "400343912631"
-      },
-      "dynamicInputs": [
-        {
-          "description": "Bag",
-          "unitCost": "1000",
-          "quantity": "1",
-          "amount": "800"
-        },
-        {
-          "description": "Kerchief",
-          "unitCost": "100",
-          "quantity": "1",
-          "amount": "80"
-        },
-        {
-          "description": "WaterBottle",
-          "unitCost": "500",
-          "quantity": "1",
-          "amount": "450"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "staticInputs": {
-        "id": "04",
-        "clientName": "Haripriya",
-        "address": "Chromepet Chennai",
-        "invoiceNumber": "TXN008",
-        "dateOfIssue": "2023-05-19",
-        "accountHolderName": "Haripriya",
-        "accountNumber": "700258963"
-      },
-      "dynamicInputs": [
-        {
-          "description": "Mi Smart Band",
-          "unitCost": "5000",
-          "quantity": "1",
-          "amount": "4500"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "staticInputs": {
         "id": "06",
-        "clientName": "Sri ",
-        "address": "Jana House",
+        "clientName": "Janakrishnamoorthy",
+        "address": "Chromepet Chennai",
         "invoiceNumber": "TXN0018",
         "dateOfIssue": "2023-05-26",
-        "accountHolderName": "Jana Sri",
+        "accountHolderName": "Janakrishnamoorthy",
         "accountNumber": "1234567890"
       },
       "dynamicInputs": [
@@ -170,7 +66,7 @@
           "amount": "80"
         }
       ],
-      "id": 10
+      "id": 1
     },
     {
       "staticInputs": {
@@ -214,7 +110,315 @@
           "amount": "5800"
         }
       ],
-      "id": 11
+      "id": 2
+    },
+    {
+      "staticInputs": {
+        "id": "03",
+        "clientName": "Balaji",
+        "address": "No.06, Ambethkar Statue, Medavakkam, Chennai-600078.",
+        "invoiceNumber": "TXN005",
+        "dateOfIssue": "2023-05-18",
+        "accountHolderName": "Balaji",
+        "accountNumber": "87654321"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "5000"
+        },
+        {
+          "description": "Lenovo E415",
+          "unitCost": "100000",
+          "quantity": "1",
+          "amount": "80000"
+        },
+        {
+          "description": "Zebronics Wireless Keyboard",
+          "unitCost": "1000",
+          "quantity": "1",
+          "amount": "800"
+        },
+        {
+          "description": "Fingers Wireless Adapter",
+          "unitCost": "800",
+          "quantity": "1",
+          "amount": "500"
+        },
+        {
+          "description": "American Tourister Lap Bag",
+          "unitCost": "2000",
+          "quantity": "1",
+          "amount": "1800"
+        },
+        {
+          "description": "Dell Wireless Mouse",
+          "unitCost": "1000",
+          "quantity": "1",
+          "amount": "700"
+        },
+        {
+          "description": "Crystal Lap Cleaner",
+          "unitCost": "300",
+          "quantity": "100 ml",
+          "amount": "250"
+        },
+        {
+          "description": "Oneplus Nord 8T",
+          "unitCost": "60000",
+          "quantity": "1",
+          "amount": "58000"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "staticInputs": {
+        "id": "05",
+        "clientName": "Haripriya",
+        "address": "Chromepet Chennai",
+        "invoiceNumber": "TXN0011",
+        "dateOfIssue": "2023-05-18",
+        "accountHolderName": "Haripriya",
+        "accountNumber": "123456789"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "4500"
+        },
+        {
+          "description": "Choki Choki ",
+          "unitCost": "50",
+          "quantity": "55",
+          "amount": "656"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "staticInputs": {
+        "id": "",
+        "clientName": "Janakrishnamoorthy",
+        "address": "08/Vanaman st, Bodinayakanur, Theni-625513.",
+        "invoiceNumber": "TXN005",
+        "dateOfIssue": "2023-05-18",
+        "accountHolderName": "Janakrishnamoorthy",
+        "accountNumber": "87654321"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "5000"
+        },
+        {
+          "description": "Lenovo E415",
+          "unitCost": "50000",
+          "quantity": "1",
+          "amount": "50000"
+        },
+        {
+          "description": "Logitech K&M combo",
+          "unitCost": "2000",
+          "quantity": "1",
+          "amount": "2000"
+        },
+        {
+          "description": "WD SDD 500GB",
+          "unitCost": "3500",
+          "quantity": "1",
+          "amount": "3500"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "staticInputs": {
+        "id": "",
+        "clientName": "Janakrishnamoorthy",
+        "address": "08/Vanaman st, Bodinayakanur, Theni-625513.",
+        "invoiceNumber": "TXN005",
+        "dateOfIssue": "2023-05-18",
+        "accountHolderName": "Janakrishnamoorthy",
+        "accountNumber": "87654321"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "5000"
+        },
+        {
+          "description": "Vivo S1 Pro",
+          "unitCost": "20,000",
+          "quantity": "1",
+          "amount": "20,000"
+        },
+        {
+          "description": "Logitech K&M Combo",
+          "unitCost": "3000",
+          "quantity": "1",
+          "amount": "3000"
+        },
+        {
+          "description": "WD SSD 500GB",
+          "unitCost": "3500",
+          "quantity": "1",
+          "amount": "3500"
+        },
+        {
+          "description": "Dell 4k Monitor",
+          "unitCost": "80,000",
+          "quantity": "1",
+          "amount": "80,000"
+        },
+        {
+          "description": "Oneplus Air pods",
+          "unitCost": "3000",
+          "quantity": "1",
+          "amount": "3000"
+        },
+        {
+          "description": "Titan A3RT5 Analog Watch",
+          "unitCost": "5000",
+          "quantity": "1",
+          "amount": "5000"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "staticInputs": {
+        "id": "",
+        "clientName": "Janakrishnamoorthy",
+        "address": "08/Vanaman st, Bodinayakanur, Theni-625513.",
+        "invoiceNumber": "TXN005",
+        "dateOfIssue": "2023-05-18",
+        "accountHolderName": "Janakrishnamoorthy",
+        "accountNumber": "87654321"
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        },
+        {
+          "description": "Vivo S1 Pro",
+          "unitCost": "20,000",
+          "quantity": "1",
+          "amount": "20,000"
+        },
+        {
+          "description": "Logitech K&M Combo",
+          "unitCost": "3,000",
+          "quantity": "1",
+          "amount": "3,000"
+        },
+        {
+          "description": "WD SSD 250GB",
+          "unitCost": "2,000",
+          "quantity": "1",
+          "amount": "2,000"
+        },
+        {
+          "description": "Dell 4k Monitor",
+          "unitCost": "80,000",
+          "quantity": "1",
+          "amount": "80,000"
+        },
+        {
+          "description": "OnePlus Air Pods",
+          "unitCost": "3,000",
+          "quantity": "1",
+          "amount": "3,000"
+        },
+        {
+          "description": "Titan A65T Analog Watch",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        },
+        {
+          "description": "Azus Rog Gaming Joystick",
+          "unitCost": "10,000",
+          "quantity": "1",
+          "amount": "10,000"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "staticInputs": {
+        "id": "",
+        "clientName": "",
+        "address": "",
+        "invoiceNumber": "",
+        "dateOfIssue": "",
+        "accountHolderName": "",
+        "accountNumber": ""
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        },
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        },
+        {
+          "description": "Choki Choki ",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "staticInputs": {
+        "id": "",
+        "clientName": "",
+        "address": "",
+        "invoiceNumber": "",
+        "dateOfIssue": "",
+        "accountHolderName": "",
+        "accountNumber": ""
+      },
+      "dynamicInputs": [
+        {
+          "description": "Mi Smart Band",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        },
+        {
+          "description": "Bag",
+          "unitCost": "120",
+          "quantity": "1",
+          "amount": "800"
+        },
+        {
+          "description": "rvr",
+          "unitCost": "5,000",
+          "quantity": "1",
+          "amount": "5,000"
+        }
+      ],
+      "id": 9
     }
   ]
 }
